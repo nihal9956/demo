@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Dashboard.css">
+    <link rel="stylesheet" href="FollowUps.css">
+    <title>FollowUps</title>
+</head>
+<body>
+    
+    <div class="followups">
+
+        <div class="sidebar">
+            <div class="sidebar__header">
+             <img src="Images/menu.svg" alt="menu">
+             <h3>DSA Assist</h3>
+            </div>
+            <div class="sidebar__user">
+    
+                <img src="Images/DP.jpg" alt="avatar" class='avatar'>
+                <div class="sidebar_userName">
+                <h3>Nihal Tiwari</h3>
+                <h4>Admin</h4>
+                </div>
+    
+            </div>
+            <div class="sidebar__options">
+              
+                <div class="sidebar__optionContainer Active">
+                <img src="Images/dashbord.svg" alt="dashboard" class="Active">
+                <a href="#">Dashboard</a>
+                </div>
+                <div class="sidebar__optionContainer">
+                    <img src="Images/leads.svg" alt="leads">
+                    <a href="#">Leads</a>
+                    </div>
+                    <div class="sidebar__optionContainer">
+                        <img src="Images/followups.svg" alt="followups">
+                        <a href="#">Followups</a>
+                        </div>
+                        <div class="sidebar__optionContainer">
+                            <img src="Images/file.svg" alt="">
+                            <a href="#">File</a>
+                            </div>
+                            <div class="sidebar__optionContainer">
+                                <img src="Images/team.svg" alt="team">
+                                <a href="#">Team</a>
+                                </div>
+    
+                                <div class="sidebar__optionContainer">
+                                    <img src="Images/accounts.svg" alt="accounts">
+                                    <a href="#">Accounts</a>
+                                    </div>
+    
+                                    <div class="sidebar__optionContainer">
+                                        <img src="Images/grow.png" alt="Reports">
+                                        <a href="#">Reports</a>
+                                        </div>
+    
+                                        <div class="sidebar__optionContainer">
+                                            <img src="Images/settings.svg" alt="settings">
+                                            <a href="#">Settings</a>
+                                            </div>
+    
+                                            <div class="sidebar__optionContainer EMI">
+                                                <img src="Images/EMI.svg" alt="Emi">
+                                                <a href="#">EMI Calculator</a>
+                                                </div>
+            </div>
+            </div>
+            <div class="body">
+          <div class="body__header">
+    
+            <div class="body__headerleft">
+                <img src="Images/search.svg" alt="search">
+               <input type="text" placeholder="Search">
+    
+            </div>
+            <div class="body__headerright">
+                <img src="Images/bell.svg" alt="bell" class="bell">
+                <img src="Images/DP.jpg" alt="avatar" class='avatar'>
+            </div>
+          </div>
+         <hr>
+    
+
+         <div class="allFollowups">
+
+            <div class="allFollowups__header">
+
+                <div class="header__left">
+                 <h1>All followups</h1>
+                </div>
+
+                <div class="header__right">
+                    <div class="search__container">
+                        <img src="Images/search.svg" alt="search" class="search">
+                        <input type="text" placeholder="Search for members">
+                    </div>
+                   
+
+                    <h3>Filter By</h3>
+                    <h4>All Statuses</h4>
+                    <img src="Images/more.png" alt="more">
+                    <img src="Images/plus.png" alt="plus">
+                </div>
+            </div>
+
+            <table>
+
+                <thead>
+                <th class="checkbox"><input type="checkbox"> <img src="Images/more.png" alt="more"></th>
+                <th>Name</th>
+                <th>Source</th>
+                <th>Followup</th>
+                <th>Assigned</th>
+                <th>Note</th>
+                </thead>
+                <tbody>
+                 <tr>
+                     <td>
+                        <input type="checkbox">
+                     </td>
+                     <td class="user">
+                         <img src="Images/user.png" alt="">
+                         <h2>Jhone Doe</h2>
+                     </td>
+                     <td>Facebook Marketing</td>
+                     <td class="today">Today</td>
+                     <td>Genson</td>
+                     <td class="read">Read More</td>
+                     <td><img src="Images/dots.png" alt="dots"></td>
+                 </tr>
+                 <tr>
+                    <td>
+                       <input type="checkbox">
+                    </td>
+                    <td class="user">
+                        <img src="Images/user.png" alt="">
+                        <h2>Jhone Doe</h2>
+                    </td>
+                    <td>Facebook Marketing</td>
+                    <td class="today">Today</td>
+                    <td>Genson</td>
+                    <td class="read">Read More</td>
+                    <td><img src="Images/dots.png" alt="dots"></td>
+                </tr>
+                <tr>
+                    <td>
+                       <input type="checkbox">
+                    </td>
+                    <td class="user">
+                    
+                        <img src="Images/user.png" alt="">
+                        <h2>Jhone Doe</h2>
+                    </td>
+                    <td>Facebook Marketing</td>
+                    <td class="today">Today</td>
+                    <td>Genson</td>
+                    <td  class="read">Read More</td>
+                    <td><img src="Images/dots.png" alt="dots"></td>
+                </tr>
+                </tbody>
+             </table>
+         </div>
+
+        <div class="controll_btns">
+            <button class="back">Back</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+</body>
+</html>
